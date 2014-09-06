@@ -47,6 +47,10 @@ $(document).ready(function() {
         $("#main").toggle();
         $("#configurar").hide();
     });
+    
+    $("#sair").click(function(){
+    	navigator.app.exitApp();
+    });
 
 });
 
