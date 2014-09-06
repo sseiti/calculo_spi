@@ -39,12 +39,12 @@ $(document).ready(function() {
     });
 
     $("#btn_configurar").click(function() {
-        $("#configurar").toggle();
+        $("#configurar").show();
         $("#main").hide();
     });
 
     $("#home").click(function() {
-        $("#main").toggle();
+        $("#main").show();
         $("#configurar").hide();
     });
     
